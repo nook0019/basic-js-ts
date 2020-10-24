@@ -1,0 +1,23 @@
+{
+  "name": "my-basic-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nook0019/basic-js-ts.git"
+  },
+  "keywords": [
+    "nook0019"
+  ],
+  "author": "onnapun pispunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nook0019/basic-js-ts/issues"
+  },
+  "homepage": "https://github.com/nook0019/basic-js-ts#readme"
+}
