@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/nook0019/basic-js-ts#readme",
   "dependencies": {
-    "loadjs": "^4.2.0"
+    "loadjs": "^4.2.0",
+    "run-func": "^1.0.5"
   }
 }
