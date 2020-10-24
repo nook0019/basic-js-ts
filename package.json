@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nook0019/basic-js-ts/issues"
   },
-  "homepage": "https://github.com/nook0019/basic-js-ts#readme"
+  "homepage": "https://github.com/nook0019/basic-js-ts#readme",
+  "dependencies": {
+    "loadjs": "^4.2.0"
+  }
 }
