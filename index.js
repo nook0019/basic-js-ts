@@ -16,7 +16,7 @@ function fib(n) {
     return result;
   }
 
-//   fib(12);
+//   fib(12);s
 
   function shift(arr, dir, n) {
     const result = [];
@@ -30,10 +30,7 @@ function fib(n) {
         const index = tmp < 0 ? tmp + len : tmp;
         result[index] = arr[i];
       }else{
-          <div>
-              <span>no direction. try again with "right" or "left" direction</span>
-          </div>
-          
+        
       }
     }
   
