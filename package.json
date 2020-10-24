@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "test": "jest",
+    "init": "run-func db.js init"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,6 @@
   },
   "homepage": "https://github.com/nook0019/basic-js-ts#readme",
   "dependencies": {
-    "loadjs": "^4.2.0",
-    "run-func": "^1.0.5"
+    "loadjs": "^4.2.0"
   }
 }
