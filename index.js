@@ -16,6 +16,8 @@ function fib(n) {
     return result;
   }
 
+//   fib(12);
+
   function shift(arr, dir, n) {
     const result = [];
   
