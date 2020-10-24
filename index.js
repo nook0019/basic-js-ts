@@ -23,10 +23,15 @@ function fib(n) {
     for (let i = 0; i < len; i++) {
       if (dir === "right") {
         result[(i + n) % len] = arr[i];
-      } else {
+      } else if (dir === "left"){
         const tmp = i - n;
         const index = tmp < 0 ? tmp + len : tmp;
         result[index] = arr[i];
+      }else{
+          <div>
+              <span>no direction. try again with "right" or "left" direction</span>
+          </div>
+          
       }
     }
   
