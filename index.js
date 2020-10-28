@@ -71,3 +71,28 @@ console.log("fib > ",fib(12));
   console.log("secondMax >",secondMax([9, 2, 21, 21]));
   console.log("secondMax >",secondMax([4123]));
   console.log("secondMax >",secondMax([4,4,4,4]));
+
+
+  function fizzBuzz(n) {
+    let output = [1];
+    const map = {
+      3: 'Fizz',
+      5: 'Buzz',
+      15: 'FizzBuzz'
+    };
+    for(let i = 2; i <= n; i++) {
+      // Multiply by -1 to move false positives for buzz and fizzBuzz out of range 
+      const fizz = i % 3 * -1 + 3;
+      const buzz = i % 5 + 5;
+      const fizzBuzz = fizz * buzz;
+      const value = map[fizzBuzz] || map[fizz] || map[buzz] || i;
+      output.push(value);
+    }
+  
+    return output;
+  }
+
+
+  console.log("fizzBuzz >",fizzBuzz(21));
+  console.log("fizzBuzz >",fizzBuzz(25));
+  console.log("fizzBuzz >",fizzBuzz(45));

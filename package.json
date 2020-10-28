@@ -22,6 +22,15 @@
   },
   "homepage": "https://github.com/nook0019/basic-js-ts#readme",
   "dependencies": {
-    "loadjs": "^4.2.0"
+    "axios": "^0.21.0",
+    "loadjs": "^4.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "styled-components": "^5.2.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
